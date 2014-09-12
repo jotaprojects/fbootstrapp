@@ -2,6 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Fbootstrapp by Clemens Krack, based on Bootstrap, from Twitter</title>
     <meta name="description" content="">
     <meta name="author" content="">
@@ -15,9 +17,9 @@
         // kill less cache
         localStorage.clear();
     </script>
-    
+
     <!-- Le styles -->
-    <link rel="stylesheet/less" href="../lib/bootstrap.less">
+    <link rel="stylesheet" href="../css/styles.css">
     <script src="../js/less-1.1.5.min.js"></script>
     <link href="assets/css/docs.css" rel="stylesheet">
     <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
@@ -31,13 +33,18 @@
 
   <body id="bootstrap-js">
 
-    <div class="container canvas">
-    
-    <div class="topbar" data-scrollspy="scrollspy">
-      <div class="topbar-inner">
-        <div class="container canvas">
-          <a class="brand" href="#">Fbootstrapp</a>
-          <ul class="nav">
+    <header class="navbar navbar-fixed-top navbar-default" id="top">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="" class="navbar-brand">Fbootstrapp</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse">
+          <ul class="nav navbar-nav">
             <li class="active"><a href="#overview">Overview</a></li>
             <li><a href="#grid-system">Grid</a></li>
             <li><a href="#typography">Type</a></li>
@@ -49,10 +56,11 @@
             <li><a href="#popovers">Popovers</a></li>
             <li><a href="#javascript">Javascript</a></li>
           </ul>
-        </div>
+        </nav>
       </div>
-    </div>
-    
+    </header>
+
+<div class="container canvas">
 <section id="overview">
 
       <!-- Main hero unit for a primary marketing message or call to action -->
@@ -80,7 +88,7 @@
           <p><a class="btn" href="#">View details &raquo;</a></p>
         </div>
       </div>
-      
+
       <div class="row">
         <div class="span-one-third">
           <h5 class="tab">Heading</h5>
@@ -101,8 +109,8 @@
           <p><a class="btn" href="#">View details &raquo;</a></p>
         </div>
       </div>
-      
-</section>      
+
+</section>
 
 
 <!-- Grid system
@@ -844,9 +852,9 @@
           </tr>
         </thead>
         <tbody>
-          
-          
-          
+
+
+
         <tr>
             <td>2</td>
             <td>Joe</td>
@@ -1571,7 +1579,7 @@ Lorem ipsum dolar sit amet illo error <a href="#" data-original-title="below">ip
     <footer>
         <p>&copy; Company 2011</p>
     </footer>
-    
+
     <!-- Le javascript -->
     <script src="http://code.jquery.com/jquery-1.7.min.js"></script>
     <!-- fall back to local if necessary -->
@@ -1583,7 +1591,7 @@ Lorem ipsum dolar sit amet illo error <a href="#" data-original-title="below">ip
     <script src="../js/bootstrap-twipsy.js"></script>
     <script src="../js/bootstrap-scrollspy.js"></script>
     <script src="assets/js/application.js"></script>
-      
+
  </div> <!-- /container -->
 
   </body>
