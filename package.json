@@ -1,0 +1,22 @@
+{
+    "name": "fbbootstrapp",
+    "version": "1.0.0",
+    "author": "Ckrack",
+    "description": "Twitter Bootstrap for Facebook",
+    "contributors": [
+        {
+            "name": "Ckrack",
+            "homepage": "http://clemenskrack.com/"
+        }
+    ],
+    "keywords": [
+        "facebook",
+        "fb",
+        "bootstrap"
+    ],
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-less": "~0.6.1",
+        "grunt-contrib-watch": "~0.4.4"
+    }
+}
