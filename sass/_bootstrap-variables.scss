@@ -12,18 +12,35 @@
 //== Colors
 //
 //## Gray and brand colors for use across Bootstrap.
-
+$black:                  #000;
 // $gray-darker:            lighten(#000, 13.5%) // #222
 // $gray-dark:              lighten(#000, 20%)   // #333
 // $gray:                   lighten(#000, 33.5%) // #555
 // $gray-light:             lighten(#000, 46.7%) // #777
 // $gray-lighter:           lighten(#000, 93.5%) // #eee
+$white:                  #fff;
 
 // $brand-primary:         #428bca
 // $brand-success:         #5cb85c
 // $brand-info:            #5bc0de
 // $brand-warning:         #f0ad4e
 // $brand-danger:          #d9534f
+
+// Accent Colors
+$blue: #627aad;
+$blue-dark: #3b5998;
+$blue-light: #d4dae8;
+$blue-lighter: #eceff6;
+$green-dark: #2c5115;
+$green: #3b6e22;
+$green-light: #69a74e;
+$red: #dd3c10;
+$red-light: #ffebe8;
+$yellow: #e2c822;
+$yellow-light: #fff9d7;
+$orange: #f89406;
+$pink: #c3325f;
+$purple: #7a43b6;
 
 //== Scaffolding
 //
@@ -298,9 +315,9 @@
 //## Define your custom responsive grid.
 
 //* Number of columns in the grid.
-// $grid-columns:              12
+$grid-columns:              16;
 //* Padding between columns. Gets divided in half for the left and right.
-// $grid-gutter-width:         30px
+$grid-gutter-width:         20px;
 // Navbar collapse
 //* Point at which the navbar becomes uncollapsed.
 // $grid-float-breakpoint:     $screen-sm-min
@@ -317,7 +334,7 @@
 // $container-sm:                 $container-tablet
 
 // Medium screen / desktop
-// $container-desktop:            ((940px + $grid-gutter-width))
+$container-desktop:            ((790px + $grid-gutter-width));
 //* For `$screen-md-min` and up.
 // $container-md:                 $container-desktop
 
@@ -338,16 +355,16 @@
 // $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2)
 // $navbar-collapse-max-height:       340px
 
-// $navbar-default-color:             #777
-// $navbar-default-bg:                #f8f8f8
+$navbar-default-color:             $white;
+$navbar-default-bg:                $blue;
 // $navbar-default-border:            darken($navbar-default-bg, 6.5%)
 
 // Navbar links
-// $navbar-default-link-color:                #777
-// $navbar-default-link-hover-color:          #333
-// $navbar-default-link-hover-bg:             transparent
-// $navbar-default-link-active-color:         #555
-// $navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%)
+$navbar-default-link-color:                $white;
+$navbar-default-link-hover-color:          $white;
+$navbar-default-link-hover-bg:             darken($navbar-default-bg, 6.5%);
+$navbar-default-link-active-color:         $white;
+$navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%);
 // $navbar-default-link-disabled-color:       #ccc
 // $navbar-default-link-disabled-bg:          transparent
 

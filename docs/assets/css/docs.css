@@ -35,14 +35,10 @@ section > .row {
 .jumbotron h1,
 .jumbotron p {
   margin-bottom: 9px;
-  color: #fff;
-  text-align: center;
-  text-shadow: 0 1px 1px rgba(0,0,0,.3);
 }
 .jumbotron h1 {
   font-size: 54px;
   line-height: 1;
-  text-shadow: 0 1px 2px rgba(0,0,0,.5);
 }
 .jumbotron p {
   font-weight: 300;
@@ -183,7 +179,7 @@ section > .row {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.show-grid [class*="span"] {
+.show-grid [class*="col-md"] {
   background: #eee;
   text-align: center;
   -webkit-border-radius: 3px;
@@ -192,14 +188,14 @@ section > .row {
   min-height: 30px;
   line-height: 30px;
 }
-.show-grid:hover [class*="span"] {
+.show-grid:hover [class*="col-md"] {
   background: #ddd;
 }
 .show-grid .show-grid {
   margin-top: 0;
   margin-bottom: 0;
 }
-.show-grid .show-grid [class*="span"] {
+.show-grid .show-grid [class*="col-md"] {
   background-color: #ccc;
 }
 
